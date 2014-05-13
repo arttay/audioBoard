@@ -10,12 +10,7 @@ define(['jquery', 'underscore', 'backbone', 'collections/main.collection', "text
   var MainView = Backbone.View.extend({
     el: "#art",
      events: {
-        "click .flip" : "audioItem",
-         "click .face" : "audioItem",
-          "click .front" : "audioItem",
-           "click .playAudio" : "audioItem",
-            "click .card" : "audioItem",
-             "click .play" : "audioItem",
+        // nothing dotdotdot
 
     },
     template: _.template(html),
